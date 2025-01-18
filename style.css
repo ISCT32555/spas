@@ -6,7 +6,8 @@
 }
 body{
    font-family: 'Times New Roman', Times, serif;
-   background-color: #673AB7;
+   background-color: #fff;
+   margin: 0;
 }
 
  .header {
@@ -88,20 +89,20 @@ body{
         text-align: center;
         font-size: 36px;
         font-weight:600;
-        color: #FFF;
+        color: #000;
  }
  .values {
     margin-top: 0;
     justify-content: space-between;
     display: flex;
-    color: #fff;
+    color: #000;
  }
  .course {
     flex-basis: 31%;
     border-radius: 10px;
     margin: 5%;
     padding: 20px 12px;
-    background-color: #212529;
+    background-color: #fff3f3;
     transition: 0.5ms;
     box-sizing: border-box
  }
@@ -121,8 +122,9 @@ body{
    width: 90%;
   margin: auto;
   margin-top: 2em; 
-  color: #FFF;
+  color: #000;
   padding-bottom: 5em;
+  background-color: #212529;
  }
  .hr {
    margin-top: 2%;
@@ -132,7 +134,7 @@ body{
    text-transform: capitalize;
    font-weight: bold;
    font-size: 36px;
-   color: #FFF;
+   color: #000;
  }
  .para2 {
    text-align: center;
@@ -162,7 +164,7 @@ form {
    padding: 20px;
    outline: none;
    margin-bottom: 1em;
-   background-color: #343f48;
+   background-color: #4e575f;
    color: #8c959e;
    border-radius: 10px;
    border: 1px solid rgb(53, 53, 53);
@@ -230,7 +232,7 @@ form {
    width: 70px;
 }
 .subheading {
-   color: #FFF;
+   color: #000;
    display: inline-block;
 }
 
@@ -266,7 +268,7 @@ footer{
    transition: 0.5s;
 }
 .socialIcons a:hover i{
-   color: white;
+   color: black;
    transition: 0.5s;
 }
 .footerNav{
@@ -315,4 +317,7 @@ footer{
        padding: 8px;
        margin: 4px;
    }
+}
+hr {
+   height: 10px;
 }
